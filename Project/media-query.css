@@ -1,0 +1,154 @@
+/* Big tablets to smaller laptop screens */
+
+@media only screen and (max-width:1188px) {
+	html,
+	body{
+		font-size:13px;
+	}
+	.about-para{
+		margin-bottom:40px;
+		font-weight:400;
+	}
+	
+	.btn2{
+		left:220px;
+	}
+	.kiran{
+		width:auto;
+		height:150px;
+	}
+	.partt-img{
+		width:380px;
+		height:350px;
+		transform:translateX(-160%);
+	}
+	.section-heading1{
+		font-size:100%;
+		text-align:center;
+	}
+	.section-sub-heading1{
+		font-size:100%;
+		text-align:center;
+	}
+}
+
+/* smaller tablets to larger tablets screens */
+@media only screen and (max-width:1023px) {
+	html,
+	body{
+		font-size:11px;
+	}
+	.header-text-box h1 {
+		font-size:50px;
+	}
+	.header-text-box h2{
+		border-top:20px;
+		font-size:19px;
+	}
+	.header-box a {
+		border-top:10px;
+	}
+	.btn2{
+		left:190px;
+	}
+	.my{
+		font-size:280%;
+	}
+	.hd-para{
+		font-size: 200%;
+	}
+	.ov{
+		font-size:245%;
+	}
+	
+	.section-heading1{
+		font-size:100%;
+		text-align:center;
+	}
+	.section-sub-heading1{
+		font-size:100%;
+		text-align:center;
+	}
+}
+
+/* larger phones to smaller tablets screens */
+@media only screen and (max-width:776px) {
+	html,
+	body{
+		font-size:9px;
+	}
+	.package-section{
+		margin-top:10px;
+	}
+	.my{
+		font-size:10%;
+	}
+	.hd-para{
+		font-size:80%;
+	}
+	.ov{
+		font-size:25%;
+	}
+	.kiran{
+	border-radius:100px;
+	margin-right:10px;
+	height: 5vh;
+	width: 5vw;
+	display:inline-block;
+	}
+	.span_1_of_3 {
+    width: 19.26%; 
+    display:inline-block;
+    padding-right: 10px: 
+
+}
+.partt-img{
+		width:auto;
+		height:200px;
+	}
+}
+
+/* smaller to larger mobile phones */
+@media only screen and (max-width:479px) {
+	.btn2{
+		left:10px;
+	}
+	.my2{
+		font-size:200%;
+	}
+	.kiran{
+	border-radius:100px;
+	margin-right:10px;
+	height: 5vh;
+	width: 5vw;
+	display:inline-block;
+	}
+	.span_1_of_3 {
+    width: 9.26%; 
+    display:inline-block;
+    padding-right: 10px: 
+
+}
+}
+@media only screen and (max-width:391px) {
+	.btn2{
+		left:10px;
+	}
+	.my2{
+		font-size:200%;
+	}
+	.kiran{
+	border-radius:10px;
+	margin-right:10px;
+	height: 5vh;
+	width: 5vw;
+	display:inline-block;
+	}
+	.span_1_of_3 {
+    width: 7.26%; 
+    display:inline-block;
+    padding-right: 10px: 
+}
+
+
+
